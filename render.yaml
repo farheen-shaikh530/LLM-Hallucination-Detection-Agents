@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: genai-abstain-app
+    runtime: node
+    buildCommand: npm run render:build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: API_BASE_URL
+        value: https://releasetrain.io/api
