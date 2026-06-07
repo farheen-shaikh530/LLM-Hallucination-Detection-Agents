@@ -2,7 +2,12 @@
 
 > **Software Update Q&A System** powered by a 5-gate abstain pipeline, NVIDIA NeMo stack, RAG response generation, and real-time hallucination detection.
 
+> DOI : https://doi.org/10.1016/j.procs.2026.04.114
+
+
 The system answers questions about software releases, CVEs, patches, and breaking changes by querying **releasetrain.io**. Instead of guessing, it says **"I don't know"** whenever it cannot find verified data — a deliberate design decision called *controlled abstention*.
+
+
 
 ---
 
